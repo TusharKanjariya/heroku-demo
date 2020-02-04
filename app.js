@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 const fetch = require("node-fetch");
+var cors = require("cors");
+
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
