@@ -1,0 +1,23 @@
+{
+  "name": "heroku-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharKanjariya/heroku-demo.git"
+  },
+  "author": "Tushar Kanjariya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TusharKanjariya/heroku-demo/issues"
+  },
+  "homepage": "https://github.com/TusharKanjariya/heroku-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
